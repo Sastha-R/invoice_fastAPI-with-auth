@@ -5,11 +5,14 @@ from app.routes.route import invoice_router
 from app.routes.cookies import cookie_router
 from sqlalchemy.exc import SQLAlchemyError
 from app.routes.reports import report_route
+from app.routes.auth import auth_router
+
 
 app = FastAPI(title="Invoice Management CRUD API")
 app.include_router(invoice_router)
 app.include_router(report_route)
 app.include_router(cookie_router)
+app.include_router(auth_router)
 
 
 

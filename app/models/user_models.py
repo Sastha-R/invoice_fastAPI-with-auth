@@ -1,5 +1,5 @@
 from datetime import date
-from sqlalchemy import Boolean, DateTime, Integer, String, func
+from sqlalchemy import Boolean, Date, Integer, String, func
 from sqlalchemy.orm import Mapped, mapped_column
 from app.database.base import Base
 
@@ -29,7 +29,7 @@ class User(Base):
 
 
     password: Mapped[str] = mapped_column(
-        String(200), 
+        String(250), 
         nullable = False
     )
 
@@ -46,7 +46,7 @@ class User(Base):
     )
 
     created_at: Mapped[date] = mapped_column(
-        DateTime(timezone=True),
+        Date,
         nullable = False,
-        server_default = func.now()
+        server_default = func.current_date()
     )

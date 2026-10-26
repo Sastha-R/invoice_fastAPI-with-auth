@@ -9,9 +9,14 @@ class Settings(BaseSettings):
     db_user: str
     db_password: str
     db_port: int = 5432
+    jwt_secret_key: str
+    jwt_algorithm: str = "HS256"
+    access_token_expire_minutes: int = 30
 
     def database_url(self) -> str:
         return (f"postgresql+asyncpg://{self.db_user}:{self.db_password}@{self.db_host}:{self.db_port}/{self.db_name}")
 
 
 settings = Settings()
+
+

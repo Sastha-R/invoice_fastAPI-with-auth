@@ -7,6 +7,7 @@ import asyncio
 from app.database.base import Base
 from app.database.database import engine
 from app.models.models import InvoiceFile,Invoice
+from app.models.user_models import User
 
 
 
