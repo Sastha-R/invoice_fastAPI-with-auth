@@ -13,5 +13,5 @@ aiofiles
 alembic
 PyJWT[crypto]
 pwdlib[argon2]
-
+python-multipart
 

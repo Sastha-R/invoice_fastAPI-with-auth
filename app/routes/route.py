@@ -2,7 +2,9 @@ from fastapi import APIRouter, Depends, status,UploadFile,File
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database.database import get_db
 from app.schemas.schemas import InvoiceCreate, InvoicePatch,InvoiceFileResponse,InvoiceResponse
-from app.dependency import get_invoice_service
+from app.dependency import get_invoice_service , get_current_user , required_admin
+
+
 invoice_router = APIRouter(prefix="/invoices", tags=["Invoices"])
 
 
@@ -18,7 +20,8 @@ async def create_invoice(invoice: InvoiceCreate,
 async def get_invoices(limit: int = 10,
                        offset: int = 0,
                        db: AsyncSession = Depends(get_db) ,
-                       invoice_service = Depends(get_invoice_service)
+                       invoice_service = Depends(get_invoice_service) ,
+                       current_user = Depends(get_current_user)
                        ):
     return await invoice_service.get_invoices(db , limit , offset)
 
@@ -27,7 +30,7 @@ async def get_invoices(limit: int = 10,
 @invoice_router.get("/{invoice_id}" )
 async def get_invoice(invoice_id: int, 
                       db: AsyncSession = Depends(get_db) ,
-                      invoice_service = Depends(get_invoice_service)
+                      invoice_service = Depends(get_invoice_service) , 
                       ):
     return await invoice_service.get_invoice_by_id(db, invoice_id)
 
@@ -51,6 +54,7 @@ async def patch_invoice(
 @invoice_router.delete("/{invoice_id}", status_code=status.HTTP_204_NO_CONTENT)
 async def delete_invoice(
     invoice_id: int,
+    current_user = Depends(required_admin),
     db: AsyncSession = Depends(get_db) , 
     invoice_service = Depends(get_invoice_service)
     ):
