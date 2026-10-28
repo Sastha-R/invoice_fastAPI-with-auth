@@ -4,7 +4,7 @@ from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.security import decode_access_token
 from app.database.database import get_db
-from app.repositorys.implementations.user_repository import UserRepository
+from app.repositories.implementations.user_repository import UserRepository
 import jwt
 
 

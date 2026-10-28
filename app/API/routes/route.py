@@ -17,7 +17,7 @@ async def create_invoice(invoice: InvoiceCreate,
     return await invoice_service.create_invoice(db , invoice)
 
 
-@invoice_router.get("" , response_model = list[InvoiceResponse])
+@invoice_router.get("/" , response_model = list[InvoiceResponse])
 async def get_invoices(limit: int = 10,
                        offset: int = 0,
                        db: AsyncSession = Depends(get_db) ,

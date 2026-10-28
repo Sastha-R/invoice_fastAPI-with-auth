@@ -1,5 +1,5 @@
-from app.repositorys.implementations.invoice_repository import InvoiceRepository
-from app.repositorys.implementations.user_repository import UserRepository
+from app.repositories.implementations.invoice_repository import InvoiceRepository
+from app.repositories.implementations.user_repository import UserRepository
 from app.services.implementations.auth_service import AuthService
 from app.services.implementations.invoice_reports import InvoiceReports
 from app.services.implementations.services import InvoiceService

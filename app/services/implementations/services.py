@@ -2,7 +2,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.exceptions.custom_exceptions import InvoiceAlreadyExistsError, InvoiceNotFoundError
 from app.schemas.schemas import InvoiceCreate, InvoiceData, InvoicePatch
 from app.utilities.file_handler import (FileHandler,WARRANTY_FOLDER)
-from app.repositorys.interfaces.invoice_repository_interface import RepositoryInterface
+from app.repositories.interfaces.invoice_repository_interface import RepositoryInterface
 from app.services.interfaces.service_interface import ServiceInterface
 
 

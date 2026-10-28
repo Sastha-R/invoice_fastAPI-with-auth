@@ -6,12 +6,11 @@ from app.schemas.schemas import InvoiceData
 from sqlalchemy import text
 from sqlalchemy.orm import selectinload
 from datetime import date
-from app.repositorys.interfaces.invoice_repository_interface import RepositoryInterface
+from app.repositories.interfaces.invoice_repository_interface import RepositoryInterface
 
 
 class InvoiceRepository(RepositoryInterface):
     async def create(self, db: AsyncSession, invoice_data: InvoiceData):
-        # invoice = Invoice(**invoice_data.model_dump())
         invoice = invoice_data.model_dump()
         try:
             statement = text("""call create_invoice(

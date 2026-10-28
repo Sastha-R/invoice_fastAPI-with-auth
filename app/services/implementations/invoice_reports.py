@@ -1,5 +1,5 @@
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.repositorys.interfaces.invoice_repository_interface import RepositoryInterface
+from app.repositories.interfaces.invoice_repository_interface import RepositoryInterface
 from app.services.interfaces.invoice_reports_interface import ReportsInterface
 
 class InvoiceReports(ReportsInterface):
