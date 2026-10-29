@@ -1,0 +1,9 @@
+2026-10-29 16:14:05,617 - INFO - GET /invoices/ - Status: 200 - Time: 0.2081 seconds
+2026-10-29 16:14:08,117 - INFO - GET /invoices/ - Status: 200 - Time: 0.0041 seconds
+2026-10-29 16:14:16,048 - INFO - POST /invoices/ - Status: 401 - Time: 0.0020 seconds
+2026-10-29 16:14:35,239 - INFO - DELETE /invoices/2 - Status: 401 - Time: 0.0006 seconds
+2026-10-29 16:14:39,341 - INFO - DELETE /invoices/2 - Status: 401 - Time: 0.0006 seconds
+2026-10-29 16:14:39,507 - INFO - DELETE /invoices/2 - Status: 401 - Time: 0.0006 seconds
+2026-10-29 16:14:39,961 - INFO - DELETE /invoices/2 - Status: 401 - Time: 0.0006 seconds
+2026-10-29 16:15:40,972 - INFO - POST /invoices/ - Status: 401 - Time: 0.0135 seconds
+2026-10-29 16:19:46,190 - INFO - GET /invoices/ - Status: 200 - Time: 0.1089 seconds

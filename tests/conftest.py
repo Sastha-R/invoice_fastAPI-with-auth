@@ -49,10 +49,10 @@ async def db_session(setup_test_database):
 
 @pytest.fixture
 def override_get_db(db_session):
-    async def _get_test_db():
+    async def get_test_db():
         yield db_session
 
-    app.dependency_overrides[get_db] = _get_test_db
+    app.dependency_overrides[get_db] = get_test_db
 
     yield
 
