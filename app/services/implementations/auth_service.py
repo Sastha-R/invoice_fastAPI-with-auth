@@ -1,10 +1,16 @@
 from fastapi import HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.core.security import hash_password,verify_password,create_access_token
+from app.core.security import (
+                hash_password,
+                verify_password,
+                create_access_token,
+                create_refresh_token,
+                decode_refresh_token
+            )
 from app.repositories.implementations.user_repository import UserRepository
 from app.schemas.auth_schemas import UserCreate,UserLogin
 from app.services.interfaces.auth_service_interface import AuthServiceInterface
-
+import jwt
 
 class AuthService(AuthServiceInterface):
 
@@ -33,39 +39,39 @@ class AuthService(AuthServiceInterface):
         return await self.user_repository.create(db, user_dict)
 
     
-    async def login(self, db: AsyncSession, user_data: UserLogin):
-        user = await self.user_repository.get_by_email(
-            db, user_data.email
-        )
+    # async def login(self, db: AsyncSession, user_data: UserLogin):
+    #     user = await self.user_repository.get_by_email(
+    #         db, user_data.email
+    #     )
 
-        if not user:
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Invalid email or password"
-            )
+    #     if not user:
+    #         raise HTTPException(
+    #             status_code=status.HTTP_401_UNAUTHORIZED,
+    #             detail="Invalid email or password"
+    #         )
 
-        if not verify_password(user_data.password, user.password):
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Invalid password"
-            )
+    #     if not verify_password(user_data.password, user.password):
+    #         raise HTTPException(
+    #             status_code=status.HTTP_401_UNAUTHORIZED,
+    #             detail="Invalid password"
+    #         )
 
-        if not user.is_active:
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail="User account is inactive"
-            )
+    #     if not user.is_active:
+    #         raise HTTPException(
+    #             status_code=status.HTTP_403_FORBIDDEN,
+    #             detail="User account is inactive"
+    #         )
 
-        access_token = create_access_token(
-        user_id=user.id,
-        role=user.role
-        )
+    #     access_token = create_access_token(
+    #     user_id=user.id,
+    #     role=user.role
+    #     )
 
 
-        return {
-        "access_token": access_token,
-        "token_type": "bearer"
-        }
+    #     return {
+    #     "access_token": access_token,
+    #     "token_type": "bearer"
+    #     }
 
 
     async def login_with_form(
@@ -101,10 +107,52 @@ class AuthService(AuthServiceInterface):
             role=user.role
         )
 
+        refresh_token = create_refresh_token(
+            user_id=user.id,
+            role=user.role
+        )
+
         return {
             "access_token": access_token,
+            "refresh_token": refresh_token,
             "token_type": "bearer"
         }
 
     async def get_all_users(self, db: AsyncSession):
         return await self.user_repository.get_all(db)
+
+
+    async def refresh_access_token(self, db: AsyncSession, refresh_token: str):
+        try:
+            payload = decode_refresh_token(refresh_token)
+            user_id = int(payload["sub"])
+
+        except (jwt.InvalidTokenError, ValueError, KeyError, TypeError):
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Invalid or expired refresh token"
+            )
+
+        user = await self.user_repository.get_by_id(db, user_id)
+
+        if not user:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="User not found"
+            )
+
+        if not user.is_active:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="User account is inactive"
+            )
+
+        new_access_token = create_access_token(
+            user_id=user.id,
+            role=user.role
+        )
+
+        return {
+            "access_token": new_access_token,
+            "token_type": "bearer"
+        }

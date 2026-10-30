@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta, timezone
 import jwt
 from pwdlib import PasswordHash
-from app.config import settings
+from app.core.config import settings
 
 password_hash = PasswordHash.recommended()
 
@@ -25,6 +25,7 @@ def create_access_token(user_id: int, role: str) -> str:
     payload = {
         "sub": str(user_id),
         "role": role,
+        "type": "access",
         "exp": expire
     }
 
@@ -42,5 +43,40 @@ def decode_access_token(token: str) -> dict:
         settings.jwt_secret_key,
         algorithms=[settings.jwt_algorithm]
     )
+    
+    if payload.get("type") != "access":
+        raise jwt.InvalidTokenError("Invalid access token type")
+
+
+    return payload
+
+
+def create_refresh_token(user_id: int, role: str) -> str:
+    expire = datetime.now(timezone.utc) + timedelta(days=settings.refresh_token_expire_minutes)
+
+    payload = {
+        "sub": str(user_id),
+        "role": role,
+        "type": "refresh",
+        "exp": expire
+    }
+
+    token =  jwt.encode(
+        payload=payload,
+        key=settings.jwt_secret_key,
+        algorithm=settings.jwt_algorithm
+    )
+
+    return token
+
+def decode_refresh_token(token: str) -> dict:
+    payload = jwt.decode(
+                token,
+                settings.jwt_secret_key,
+                algorithms=[settings.jwt_algorithm]
+                )
+
+    if payload.get("type") != "refresh":
+        raise jwt.InvalidTokenError("Invalid refresh token type")
 
     return payload

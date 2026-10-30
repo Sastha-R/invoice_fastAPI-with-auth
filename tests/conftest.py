@@ -7,7 +7,7 @@ from app.database.database import get_db
 from app.main import app
 # from app.models.user_models import User
 # from app.models.models import Invoice, InvoiceFile
-from app.config import settings
+from app.core.config import settings
 
 
 TEST_DATABASE_URL = settings.database_url().replace(

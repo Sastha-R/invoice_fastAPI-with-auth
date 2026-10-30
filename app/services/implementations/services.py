@@ -4,12 +4,14 @@ from app.schemas.schemas import InvoiceCreate, InvoiceData, InvoicePatch
 from app.utilities.file_handler import (FileHandler,WARRANTY_FOLDER)
 from app.repositories.interfaces.invoice_repository_interface import RepositoryInterface
 from app.services.interfaces.service_interface import ServiceInterface
+from app.services.implementations.email_service import EmailService
 
 
 class InvoiceService(ServiceInterface):
     def __init__(self , repository : RepositoryInterface) -> None:
         self.repository = repository
         self.filehandler = FileHandler()
+        self.emailservice = EmailService()
 
     async def create_invoice(
             self, 
@@ -21,7 +23,20 @@ class InvoiceService(ServiceInterface):
             raise InvoiceAlreadyExistsError("Invoice number already exists")
 
         invoice_data = self.build_invoice_data(invoice)
-        return await self.repository.create(db, invoice_data)
+
+        invoice =  await self.repository.create(db, invoice_data)
+        
+        email_sent = self.emailservice.send_invoice_confirmation(
+                customer_email=invoice["customer_email"],
+                customer_name=invoice["customer_name"],
+                invoice_number=invoice["invoice_number"],
+                product_name=invoice["product_name"],
+                quantity=invoice["quantity"],
+                unit_price=invoice["unit_price"],
+                total_amount=invoice["total_amount"],
+            )
+
+        return invoice
 
     async def get_invoices(
         self, 

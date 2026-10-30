@@ -13,13 +13,13 @@ class AuthServiceInterface(ABC):
     ):
         pass
 
-    @abstractmethod
-    async def login(
-        self,
-        db: AsyncSession,
-        user_data: UserLogin
-    ):
-        pass
+    # @abstractmethod
+    # async def login(
+    #     self,
+    #     db: AsyncSession,
+    #     user_data: UserLogin
+    # ):
+    #     pass
 
     @abstractmethod
     async def login_with_form(

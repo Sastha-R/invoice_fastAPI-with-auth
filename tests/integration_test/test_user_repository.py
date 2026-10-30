@@ -3,17 +3,20 @@ from app.models.user_models import User
 from app.repositories.implementations.user_repository import UserRepository
 
 
-@pytest.mark.asyncio
-async def test_create_user(db_session):
-    repository = UserRepository()
-
-    user_data = {
+@pytest.fixture
+def user_data():
+    return {
         "username": "testuser",
         "email": "testuser@gmail.com",
         "password": "testpasssword",
         "role": "employee",
         "is_active": True,
     }
+
+
+@pytest.mark.asyncio
+async def test_create_user(db_session ,  user_data):
+    repository = UserRepository()
 
     created_user = await repository.create(db_session, user_data)
 

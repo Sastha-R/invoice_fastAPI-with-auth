@@ -1,14 +1,16 @@
 import pytest
 
-
-@pytest.mark.asyncio
-async def test_register_user(client):
-    user_data = {
+@pytest.fixture
+def user_data():
+    return {
         "username": "testuser",
         "email": "testuser@gmail.com",
         "password": "Password@123"
     }
 
+@pytest.mark.asyncio
+async def test_register_user(client , user_data):
+    
     response = await client.post("/auth/register", json=user_data)
 
     assert response.status_code == 201

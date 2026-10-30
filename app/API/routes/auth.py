@@ -1,9 +1,19 @@
-from fastapi import APIRouter, Depends, status
+from fastapi import (
+            APIRouter,
+            Depends,
+            status,
+            Body
+            )
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database.database import get_db
 from app.API.dependencies.auth_dependency import required_admin
 from app.API.dependencies.dependency import get_auth_service
-from app.schemas.auth_schemas import UserCreate, UserResponse,UserLogin
+from app.schemas.auth_schemas import (
+                    UserCreate, 
+                    UserResponse,
+                    UserLogin,
+                    RefreshTokenRequest
+                    )
 from fastapi.security import OAuth2PasswordRequestForm
 from app.services.implementations.auth_service import AuthService
 
@@ -45,3 +55,15 @@ async def get_all_users(
 ):
     return await auth_service.get_all_users(db)
 
+
+
+@auth_router.post("/refresh")
+async def refresh_access_token(
+    token_data: RefreshTokenRequest,
+    db: AsyncSession = Depends(get_db),
+    auth_service: AuthService = Depends(get_auth_service)
+):
+    return await auth_service.refresh_access_token(
+        db,
+        token_data.refresh_token
+    )

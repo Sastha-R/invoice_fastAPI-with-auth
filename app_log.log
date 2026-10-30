@@ -7,3 +7,621 @@
 2026-10-29 16:14:39,961 - INFO - DELETE /invoices/2 - Status: 401 - Time: 0.0006 seconds
 2026-10-29 16:15:40,972 - INFO - POST /invoices/ - Status: 401 - Time: 0.0135 seconds
 2026-10-29 16:19:46,190 - INFO - GET /invoices/ - Status: 200 - Time: 0.1089 seconds
+2026-10-30 10:18:05,064 - INFO - GET /docs - Status: 200 - Time: 0.0013 seconds
+2026-10-30 10:18:05,487 - INFO - GET /openapi.json - Status: 200 - Time: 0.2020 seconds
+2026-10-30 10:19:35,995 - INFO - POST /auth/login - Status: 401 - Time: 0.2082 seconds
+2026-10-30 10:19:45,992 - INFO - POST /auth/login - Status: 200 - Time: 0.1949 seconds
+2026-10-30 10:20:03,730 - INFO - POST /auth/login - Status: 200 - Time: 0.1609 seconds
+2026-10-30 10:20:13,093 - INFO - POST /auth/login - Status: 200 - Time: 0.1576 seconds
+2026-10-30 10:20:30,228 - INFO - GET /reports/repeated-customers - Status: 200 - Time: 0.0226 seconds
+2026-10-30 10:44:23,039 - INFO - GET /docs - Status: 200 - Time: 0.0015 seconds
+2026-10-30 10:44:23,479 - INFO - GET /openapi.json - Status: 200 - Time: 0.2040 seconds
+2026-10-30 11:00:48,357 - INFO - GET /docs - Status: 200 - Time: 0.0031 seconds
+2026-10-30 11:00:48,704 - INFO - GET /openapi.json - Status: 200 - Time: 0.2022 seconds
+2026-10-30 11:00:50,799 - INFO - GET /docs - Status: 200 - Time: 0.0008 seconds
+2026-10-30 11:00:50,875 - INFO - GET /openapi.json - Status: 200 - Time: 0.0031 seconds
+2026-10-30 11:01:35,233 - INFO - POST /auth/login - Status: 200 - Time: 0.3406 seconds
+2026-10-30 11:02:37,235 - INFO - POST /auth/refresh - Status: 200 - Time: 0.0118 seconds
+2026-10-30 11:02:54,517 - INFO - POST /auth/refresh - Status: 401 - Time: 0.0038 seconds
+2026-10-30 11:09:05,963 - INFO - POST /auth/refresh - Status: 401 - Time: 0.0718 seconds
+2026-10-30 12:19:17,272 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 12:19:17,272 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 12:19:17,272 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 12:19:17,272 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 12:19:17,273 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 12:19:17,273 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 12:19:17,273 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 12:21:06,100 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:21:06,101 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.0750 seconds
+2026-10-30 12:21:18,083 - INFO - invoice_app - GET /invoices/ - Status: 200 - Time: 0.0348 seconds
+2026-10-30 12:21:27,633 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:21:27,639 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.0105 seconds
+2026-10-30 12:34:46,453 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 12:34:46,453 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 12:34:46,453 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 12:34:46,453 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 12:34:46,453 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 12:34:46,453 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 12:34:46,453 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 12:35:03,655 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:35:03,655 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.0861 seconds
+2026-10-30 12:35:09,776 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:35:09,777 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.0041 seconds
+2026-10-30 12:35:32,466 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 12:35:32,466 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 12:35:32,466 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 12:35:32,466 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 12:35:32,466 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 12:35:32,466 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 12:35:32,466 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 12:35:36,689 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:35:36,690 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.1815 seconds
+2026-10-30 12:35:41,604 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:35:41,604 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.0040 seconds
+2026-10-30 12:35:52,132 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:35:52,132 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.0038 seconds
+2026-10-30 12:35:56,780 - WARNING - invoice_app - Invoice not found: GET /invoices/999 - Invoice not found
+2026-10-30 12:35:56,781 - INFO - invoice_app - GET /invoices/999 - Status: 404 - Time: 0.0032 seconds
+2026-10-30 12:36:06,530 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 12:36:06,530 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 12:36:06,531 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 12:36:06,531 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 12:36:06,531 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 12:36:06,531 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 12:36:06,531 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 12:36:08,917 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 12:36:08,917 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 12:36:08,917 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 12:36:08,918 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 12:36:08,918 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 12:36:08,918 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 12:36:08,918 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 12:38:05,536 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 12:38:05,536 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 12:38:05,537 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 12:38:05,537 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 12:38:05,537 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 12:38:05,537 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 12:38:05,537 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 12:42:43,257 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 12:42:43,257 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 12:42:43,257 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 12:42:43,257 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 12:42:43,258 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 12:42:43,258 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 12:42:43,258 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:13:00,414 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:13:00,414 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:13:00,414 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:13:00,414 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:13:00,414 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:13:00,414 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:13:00,414 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:28:37,976 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:28:37,976 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:28:37,976 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:28:37,976 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:28:37,976 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:28:37,976 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:28:37,976 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:29:59,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:29:59,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:29:59,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:29:59,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:29:59,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:29:59,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:29:59,891 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:30:18,520 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:30:18,520 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:30:18,520 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:30:18,520 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:30:18,520 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:30:18,520 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:30:18,520 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:32:22,936 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:32:22,936 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:32:22,936 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:32:22,936 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:32:22,936 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:32:22,936 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:32:22,936 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:32:24,703 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:32:24,703 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:32:24,703 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:32:24,703 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:32:24,703 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:32:24,703 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:32:24,703 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:33:06,266 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:33:06,266 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:33:06,267 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:33:06,267 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:33:06,267 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:33:06,267 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:33:06,267 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:33:13,991 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:33:13,992 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:33:13,992 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:33:13,992 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:33:13,992 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:33:13,992 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:33:13,993 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:33:16,945 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:33:16,946 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:33:16,946 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:33:16,946 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:33:16,946 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:33:16,946 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:33:16,946 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:36:50,582 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:36:50,582 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:36:50,582 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:36:50,582 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:36:50,582 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:36:50,583 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:36:50,583 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:36:52,380 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:36:52,380 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:36:52,380 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:36:52,380 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:36:52,380 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:36:52,380 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:36:52,380 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:42:49,956 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:42:49,956 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:42:49,956 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:42:49,956 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:42:49,956 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:42:49,956 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:42:49,956 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:47:52,551 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:47:52,551 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:47:52,551 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:47:52,551 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:47:52,551 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:47:52,551 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:47:52,551 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:47:57,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:47:57,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:47:57,891 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:47:57,892 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:47:57,892 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:47:57,892 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:47:57,892 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:47:59,837 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:47:59,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:47:59,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:47:59,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:47:59,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:47:59,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:47:59,838 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:48:02,206 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:48:02,206 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:48:02,206 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:48:02,206 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:48:02,206 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:48:02,206 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:48:02,206 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:48:10,027 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:48:10,027 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:48:10,028 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:48:10,028 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:48:10,028 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:48:10,028 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:48:10,028 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:07,377 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:07,377 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:07,377 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:07,377 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:07,377 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:07,377 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:07,377 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:09,984 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:09,984 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:09,984 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:09,984 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:09,984 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:09,985 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:09,985 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:12,438 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:12,438 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:12,438 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:12,438 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:12,438 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:12,438 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:12,439 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:18,009 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:18,009 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:18,009 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:18,009 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:18,009 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:18,009 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:18,009 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:22,784 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:22,784 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:22,785 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:22,785 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:22,785 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:22,785 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:22,785 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:27,189 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:27,189 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:27,189 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:27,189 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:27,189 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:27,189 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:27,189 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:31,686 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:31,686 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:31,686 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:31,686 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:31,686 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:31,686 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:31,686 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:51:35,622 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:51:35,622 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:51:35,622 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:51:35,622 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:51:35,622 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:51:35,622 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:51:35,622 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:52:27,933 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:52:27,934 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:52:27,934 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:52:27,934 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:52:27,934 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:52:27,934 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:52:27,934 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:52:41,088 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:52:41,089 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:52:41,089 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:52:41,089 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:52:41,089 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:52:41,089 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:52:41,089 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:52:44,376 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:52:44,376 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:52:44,376 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:52:44,376 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:52:44,376 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:52:44,376 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:52:44,377 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:52:57,751 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:52:57,751 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:52:57,751 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:52:57,751 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:52:57,751 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:52:57,751 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:52:57,751 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:53:00,377 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:53:00,378 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:53:00,378 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:53:00,378 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:53:00,378 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:53:00,378 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:53:00,378 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:53:05,910 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:53:05,910 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:53:05,910 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:53:05,910 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:53:05,910 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:53:05,910 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:53:05,910 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:53:11,806 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:53:11,806 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:53:11,806 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:53:11,806 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:53:11,807 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:53:11,807 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:53:11,807 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:54:24,986 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:54:24,986 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:54:24,986 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:54:24,986 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:54:24,986 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:54:24,987 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:54:24,987 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:54:41,064 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:54:41,065 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:54:41,065 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:54:41,065 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:54:41,065 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:54:41,065 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:54:41,065 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:54:44,281 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:54:44,281 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:54:44,281 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:54:44,281 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:54:44,281 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:54:44,281 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:54:44,281 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:54:46,211 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:54:46,211 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:54:46,211 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:54:46,211 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:54:46,211 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:54:46,211 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:54:46,212 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:54:49,903 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:54:49,904 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:54:49,904 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:54:49,904 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:54:49,904 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:54:49,904 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:54:49,904 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:54:52,033 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:54:52,034 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:54:52,034 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:54:52,034 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:54:52,034 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:54:52,034 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:54:52,034 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:56:42,748 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:56:42,748 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:56:42,748 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:56:42,748 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:56:42,748 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:56:42,748 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:56:42,748 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:56:45,146 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:56:45,146 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:56:45,146 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:56:45,146 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:56:45,146 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:56:45,146 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:56:45,146 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:56:49,055 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:56:49,055 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:56:49,055 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:56:49,055 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:56:49,056 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:56:49,056 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:56:49,056 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:56:53,563 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:56:53,563 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:56:53,564 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:56:53,564 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:56:53,564 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:56:53,564 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:56:53,564 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:56:57,828 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:56:57,829 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:56:57,829 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:56:57,829 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:56:57,829 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:56:57,829 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:56:57,829 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:56:59,944 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:56:59,944 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:56:59,944 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:56:59,944 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:56:59,945 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:56:59,945 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:56:59,945 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:57:58,132 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:57:58,133 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:57:58,133 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:57:58,133 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:57:58,133 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:57:58,133 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:57:58,133 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:58:25,470 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:58:25,471 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:58:25,471 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:58:25,471 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:58:25,471 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:58:25,471 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:58:25,471 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:58:30,358 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:58:30,358 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:58:30,358 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:58:30,358 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:58:30,358 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:58:30,358 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:58:30,358 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 14:58:37,432 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 14:58:37,432 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 14:58:37,432 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 14:58:37,432 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 14:58:37,432 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 14:58:37,432 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 14:58:37,432 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:03:55,913 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:03:55,913 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:03:55,913 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:03:55,913 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:03:55,913 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:03:55,913 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:03:55,913 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:20:39,331 - INFO - invoice_app - GET /docs - Status: 200 - Time: 0.0016 seconds
+2026-10-30 15:20:39,644 - INFO - invoice_app - GET /openapi.json - Status: 200 - Time: 0.2073 seconds
+2026-10-30 15:22:07,511 - INFO - invoice_app - POST /invoices/ - Status: 401 - Time: 0.0035 seconds
+2026-10-30 15:22:20,441 - INFO - invoice_app - POST /auth/login - Status: 401 - Time: 0.2642 seconds
+2026-10-30 15:22:34,512 - INFO - invoice_app - POST /auth/login - Status: 200 - Time: 0.1587 seconds
+2026-10-30 15:22:39,327 - ERROR - invoice_app - Unexpected error: POST /invoices/
+2026-10-30 15:40:33,262 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:40:33,262 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:40:33,262 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:40:33,262 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:40:33,262 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:40:33,263 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:40:33,263 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:40:42,729 - WARNING - invoice_app - Invoice already exists: POST /invoices/ - Invoice number already exists
+2026-10-30 15:40:42,730 - INFO - invoice_app - POST /invoices/ - Status: 409 - Time: 0.1777 seconds
+2026-10-30 15:41:39,638 - WARNING - invoice_app - Invoice already exists: POST /invoices/ - Invoice number already exists
+2026-10-30 15:41:39,639 - INFO - invoice_app - POST /invoices/ - Status: 409 - Time: 0.0136 seconds
+2026-10-30 15:41:47,203 - ERROR - invoice_app - Unexpected error: POST /invoices/
+2026-10-30 15:42:22,708 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:42:22,709 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:42:22,709 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:42:22,709 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:42:22,709 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:42:22,709 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:42:22,709 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:43:43,439 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:43:43,440 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:43:43,440 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:43:43,440 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:43:43,440 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:43:43,440 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:43:43,440 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:43:45,680 - WARNING - invoice_app - Invoice already exists: POST /invoices/ - Invoice number already exists
+2026-10-30 15:43:45,681 - INFO - invoice_app - POST /invoices/ - Status: 409 - Time: 0.1680 seconds
+2026-10-30 15:43:52,707 - ERROR - invoice_app - Unexpected error: POST /invoices/
+2026-10-30 15:43:54,880 - INFO - invoice_app - GET /docs - Status: 200 - Time: 0.0007 seconds
+2026-10-30 15:43:55,165 - INFO - invoice_app - GET /openapi.json - Status: 200 - Time: 0.2009 seconds
+2026-10-30 15:44:10,579 - INFO - invoice_app - POST /auth/login - Status: 200 - Time: 0.1688 seconds
+2026-10-30 15:45:35,001 - ERROR - invoice_app - Unexpected error: POST /invoices/
+2026-10-30 15:49:25,668 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:49:25,669 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:49:25,669 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:49:25,669 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:49:25,669 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:49:25,669 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:49:25,669 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:49:30,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:49:30,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:49:30,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:49:30,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:49:30,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:49:30,838 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:49:30,838 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:49:33,953 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:49:33,953 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:49:33,953 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:49:33,953 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:49:33,953 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:49:33,954 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:49:33,954 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:49:38,532 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:49:38,533 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:49:38,533 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:49:38,533 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:49:38,533 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:49:38,533 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:49:38,533 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:49:41,663 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:49:41,663 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:49:41,663 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:49:41,664 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:49:41,664 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:49:41,664 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:49:41,664 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:49:53,301 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:49:53,302 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:49:53,302 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:49:53,302 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:49:53,302 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:49:53,302 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:49:53,302 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:49:55,824 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:49:55,824 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:49:55,824 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:49:55,824 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:49:55,824 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:49:55,824 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:49:55,824 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:50:06,730 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:50:06,730 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:50:06,730 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:50:06,730 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:50:06,730 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:50:06,730 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:50:06,731 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:50:14,395 - INFO - invoice_app - GET /docs - Status: 200 - Time: 0.0024 seconds
+2026-10-30 15:50:14,658 - INFO - invoice_app - GET /openapi.json - Status: 200 - Time: 0.1747 seconds
+2026-10-30 15:50:27,323 - INFO - invoice_app - POST /auth/login - Status: 200 - Time: 0.2831 seconds
+2026-10-30 15:50:52,295 - INFO - invoice_app - Invoice confirmation email sent for invoice IN_021
+2026-10-30 15:50:52,296 - INFO - invoice_app - POST /invoices/ - Status: 201 - Time: 6.0247 seconds
+2026-10-30 15:53:26,971 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:53:26,972 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:53:26,972 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:53:26,972 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:53:26,973 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:53:26,973 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:53:26,973 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:53:31,015 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:53:31,015 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:53:31,015 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:53:31,015 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:53:31,015 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:53:31,015 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:53:31,015 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 15:55:07,185 - INFO - invoice_app - Invoice confirmation email sent for invoice IN_022
+2026-10-30 15:55:07,186 - INFO - invoice_app - POST /invoices/ - Status: 201 - Time: 4.7941 seconds
+2026-10-30 15:56:02,616 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 15:56:02,616 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 15:56:02,616 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 15:56:02,616 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 15:56:02,616 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 15:56:02,616 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 15:56:02,616 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 17:13:07,889 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 17:13:07,889 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 17:13:07,889 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 17:13:07,889 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 17:13:07,889 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 17:13:07,889 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 17:13:07,889 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 17:13:08,459 - INFO - invoice_app - POST /auth/register - Status: 201 - Time: 0.0890 seconds
+2026-10-30 17:13:08,460 - INFO - httpx - HTTP Request: POST http://test/auth/register "HTTP/1.1 201 Created"
+2026-10-30 17:53:48,895 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 17:53:48,896 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 17:53:48,896 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 17:53:48,896 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 17:53:48,896 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 17:53:48,896 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 17:53:48,896 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 17:53:49,323 - INFO - invoice_app - POST /auth/register - Status: 201 - Time: 0.0858 seconds
+2026-10-30 17:53:49,324 - INFO - httpx - HTTP Request: POST http://test/auth/register "HTTP/1.1 201 Created"
+2026-10-30 17:53:49,400 - INFO - invoice_app - POST /auth/login - Status: 200 - Time: 0.0746 seconds
+2026-10-30 17:53:49,400 - INFO - httpx - HTTP Request: POST http://test/auth/login "HTTP/1.1 200 OK"
+2026-10-30 17:53:53,009 - INFO - invoice_app - Invoice confirmation email sent for invoice IN_001
+2026-10-30 17:53:53,010 - INFO - invoice_app - POST /invoices/ - Status: 201 - Time: 3.6089 seconds
+2026-10-30 17:53:53,010 - INFO - httpx - HTTP Request: POST http://test/invoices/ "HTTP/1.1 201 Created"
+2026-10-30 18:37:18,604 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 18:37:18,606 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 18:37:18,606 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 18:37:18,606 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 18:37:18,606 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 18:37:18,606 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 18:37:18,606 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 18:38:55,482 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 18:38:55,483 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 18:38:55,483 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 18:38:55,483 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 18:38:55,483 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 18:38:55,483 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 18:38:55,483 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 18:38:56,106 - INFO - invoice_app - POST /auth/register - Status: 201 - Time: 0.1314 seconds
+2026-10-30 18:38:56,108 - INFO - httpx - HTTP Request: POST http://test/auth/register "HTTP/1.1 201 Created"
+2026-10-30 18:51:06,077 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 18:51:06,079 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 18:51:06,079 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 18:51:06,079 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 18:51:06,079 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 18:51:06,079 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 18:51:06,079 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 18:51:06,662 - INFO - invoice_app - POST /auth/register - Status: 201 - Time: 0.0966 seconds
+2026-10-30 18:51:06,663 - INFO - httpx - HTTP Request: POST http://test/auth/register "HTTP/1.1 201 Created"
+2026-10-30 18:52:04,787 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 18:52:04,787 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 18:52:04,787 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 18:52:04,787 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 18:52:04,787 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 18:52:04,787 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 18:52:04,787 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
+2026-10-30 18:52:05,451 - INFO - invoice_app - POST /auth/register - Status: 201 - Time: 0.1187 seconds
+2026-10-30 18:52:05,452 - INFO - httpx - HTTP Request: POST http://test/auth/register "HTTP/1.1 201 Created"
+2026-10-30 18:52:05,541 - INFO - invoice_app - POST /auth/login - Status: 200 - Time: 0.0868 seconds
+2026-10-30 18:52:05,542 - INFO - httpx - HTTP Request: POST http://test/auth/login "HTTP/1.1 200 OK"
+2026-10-30 18:52:10,777 - INFO - invoice_app - Invoice confirmation email sent for invoice IN_001
+2026-10-30 18:52:10,778 - INFO - invoice_app - POST /invoices/ - Status: 201 - Time: 5.2360 seconds
+2026-10-30 18:52:10,779 - INFO - httpx - HTTP Request: POST http://test/invoices/ "HTTP/1.1 201 Created"
+2026-10-30 18:56:09,860 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.schemas
+2026-10-30 18:56:09,860 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.tables
+2026-10-30 18:56:09,860 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.types
+2026-10-30 18:56:09,861 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.constraints
+2026-10-30 18:56:09,861 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.defaults
+2026-10-30 18:56:09,861 - INFO - alembic.runtime.plugins - setup plugin alembic.autogenerate.comments
+2026-10-30 18:56:09,861 - INFO - alembic.runtime.plugins - setup plugin alembic.ext.checkconstraint_byname
