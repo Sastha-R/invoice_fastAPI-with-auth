@@ -1,6 +1,7 @@
 from datetime import date
 from decimal import Decimal
 from pydantic import BaseModel, ConfigDict, EmailStr, Field
+from app.schemas.invoice_file_schema import InvoiceFileResponse
 
 
 class InvoiceCreate(BaseModel):
