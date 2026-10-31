@@ -3,7 +3,7 @@
 from fastapi import FastAPI, Request
 from app.core.logging_config import logger
 from fastapi.responses import JSONResponse
-from app.API.routes.route import invoice_router
+from app.API.routes.invoices import invoice_router
 from app.API.routes.cookies import cookie_router
 from sqlalchemy.exc import SQLAlchemyError
 from app.API.routes.reports import report_route

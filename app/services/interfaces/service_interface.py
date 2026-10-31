@@ -1,6 +1,6 @@
 from abc import ABC,abstractmethod
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.schemas.schemas import InvoiceCreate
+from app.schemas.invoice_schema import InvoiceCreate
 
 class ServiceInterface(ABC):
     @abstractmethod

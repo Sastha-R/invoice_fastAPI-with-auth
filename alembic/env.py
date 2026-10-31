@@ -6,8 +6,8 @@ from alembic import context
 import asyncio
 from app.database.base import Base
 from app.database.database import engine
-from app.models.models import InvoiceFile,Invoice
-from app.models.user_models import User
+from app.models.invoice_model import InvoiceFile,Invoice
+from app.models.user_model import User
 
 
 

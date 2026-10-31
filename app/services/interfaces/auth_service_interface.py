@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.schemas.auth_schemas import UserCreate, UserLogin
+from app.schemas.auth_schema import UserCreate, UserLogin
 
 
 class AuthServiceInterface(ABC):

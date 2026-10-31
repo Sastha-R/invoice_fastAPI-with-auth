@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, status,UploadFile,File
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database.database import get_db
-from app.schemas.schemas import InvoiceCreate, InvoicePatch,InvoiceFileResponse,InvoiceResponse
+from app.schemas.invoice_file_schema import InvoiceFileResponse
+from app.schemas.invoice_schema import InvoiceCreate, InvoicePatch,InvoiceResponse
 from app.API.dependencies.auth_dependency import  get_current_user , required_admin
 from app.API.dependencies.dependency import get_invoice_service 
 

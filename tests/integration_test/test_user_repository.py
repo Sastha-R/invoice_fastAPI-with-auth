@@ -1,5 +1,5 @@
 import pytest
-from app.models.user_models import User
+from app.models.user_model import User
 from app.repositories.implementations.user_repository import UserRepository
 
 
@@ -25,3 +25,5 @@ async def test_create_user(db_session ,  user_data):
     assert created_user.email == "testuser@gmail.com"
     assert created_user.role == "employee"
     
+
+

@@ -8,7 +8,7 @@ from app.core.security import (
                 decode_refresh_token
             )
 from app.repositories.implementations.user_repository import UserRepository
-from app.schemas.auth_schemas import UserCreate,UserLogin
+from app.schemas.auth_schema import UserCreate,UserLogin
 from app.services.interfaces.auth_service_interface import AuthServiceInterface
 import jwt
 

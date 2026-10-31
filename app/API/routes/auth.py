@@ -8,7 +8,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.database.database import get_db
 from app.API.dependencies.auth_dependency import required_admin
 from app.API.dependencies.dependency import get_auth_service
-from app.schemas.auth_schemas import (
+from app.schemas.auth_schema import (
                     UserCreate, 
                     UserResponse,
                     UserLogin,

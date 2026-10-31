@@ -2,8 +2,8 @@ from datetime import date
 from decimal import Decimal
 import pytest
 from app.repositories.implementations.invoice_repository import InvoiceRepository
-from app.schemas.schemas import InvoiceData
-from app.models.models import Invoice
+from app.schemas.invoice_schema import InvoiceData
+from app.models.invoice_model import Invoice
 
 
 @pytest.mark.asyncio
